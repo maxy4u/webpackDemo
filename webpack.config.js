@@ -3,7 +3,7 @@ module.exports = {
 	output:{
 		filename:"bundle.js"
 	},
-	watch:true,
+	//watch:true,
 	module:{
 		preLoaders:[{
 			test:/.js$/,
