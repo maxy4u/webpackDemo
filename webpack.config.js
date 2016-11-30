@@ -1,7 +1,7 @@
 var path = require('path');
 module.exports = {
 	context:path.resolve('js'),
-	entry:["./utils","./app.js"],
+	entry:["./utils","./app"],
 	output:{
 		path:path.resolve('build/js/'),
 		publicPath:'/public/assets/js/',

@@ -3,4 +3,4 @@ let login = (user,password)=>{
 		console.log('incorrect user');
 	}
 };
-login('admin','passjyfjyuf');
+export {login};
